@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Page 1</title>
-    <link rel="stylesheet" href="./css/stylesheet.css"
+    <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    <form action="#" method="POST">
+    <form action="#" method="GET">
         <h1>Lifestlye Survey</h1>
         <p>
-            Required fields are followed by 
-            <strong><span aria-label="required">*</span></strong>
+            Required fields are followed by *
         </p>
         <fieldset>
             <legend>Personal Information</legend>
@@ -21,12 +20,12 @@
                     <span>First Name:</span>
                     <strong><span aria-label="required">*</span></strong>
                     </label> 
-                    <input type="text" name="firstname" id="firstname"/>
+                    <input type="text" name="firstname" id="firstname" autofocus tabindex="1">
                 <label for="lastname">
                     <span>Last Name:</span>
                         <strong><span aria-label="required">*</span></strong>
                     </label> 
-                    <input type="text" name="lastname" id="lastname" />
+                    <input type="text" name="lastname" id="lastname" >
             </p>
             <p>
                 <label for="year">
@@ -74,7 +73,7 @@
                     <span>Age:</span>
                     <strong><span aria-label="required">*</span></strong>
                     </label>
-                <input type="text" name="age" id="age">
+                <input type="text" name="age" id="age" >
             </p>
         </fieldset>
     </form>
