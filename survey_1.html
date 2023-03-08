@@ -8,31 +8,22 @@
     <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    <form action="#" method="GET">
+    <form>
         <h1>Lifestlye Survey</h1>
-        <p>
-            Required fields are followed by *
-        </p>
         <fieldset>
             <legend>Personal Information</legend>
             <p>
-                <label for="firstname">
-                    <span>First Name:</span>
-                    <strong><span aria-label="required">*</span></strong>
+                <label for="firstname">First Name:
                     </label> 
-                    <input type="text" name="firstname" id="firstname" autofocus tabindex="1">
-                <label for="lastname">
-                    <span>Last Name:</span>
-                        <strong><span aria-label="required">*</span></strong>
+                    <input type="text" name="firstname" id="firstname" autofocus required >
+                <label for="lastname">Last Name:
                     </label> 
-                    <input type="text" name="lastname" id="lastname" >
+                    <input type="text" name="lastname" id="lastname" required >
             </p>
             <p>
-                <label for="year">
-                    <span>School Year:</span>
-                    <strong><span aria-label="required">*</span></strong>
-                    <select name="year" id="year">
-                        <option value="" selected> Choose one... </option>
+                <label for="year">School Year:
+                    <select name="year" id="year" required>
+                        <option value="" > Choose one... </option>
                         <option value="Freshamn">Freshman</option>
                         <option value="Sophomore">Sophomore</option>
                         <option value="Junior">Junior</option>
@@ -44,36 +35,34 @@
             Gender:
             <ul>
                 <li>
-                    <label for="gender_1">
-                        <input type="radio" id="gender_1" name="gender" value="Male" required>
+                    <label for="male">
+                        <input type="radio" id="male" name="gender" value="male" required>
                         Male
                     </label>
                 </li>
                 <li>
-                    <label for="gender_2">
-                        <input type="radio" id="gender_2" name="gender" value="Female">
+                    <label for="female">
+                        <input type="radio" id="female" name="gender" value="female">
                         Female
                     </label>
                 </li>
                 <li>
-                    <label for="gender_3">
-                        <input type="radio" id="gender_3" name="gender" value="Non-binary">
+                    <label for="non-binary">
+                        <input type="radio" id="non-binary" name="gender" value="non-binary">
                         Non-Binary
                     </label>
                 </li>
                 <li>
-                    <label for="gender_4">
-                        <input type="radio" id="gender_4" name="gender" value="Prefer not to say">
+                    <label for="N/A">
+                        <input type="radio" id="N/A" name="gender" value="N/A">
                         Prefer not to say
                     </label>
                 </li>
             </ul>
             <p>
-                <label for="age">
-                    <span>Age:</span>
-                    <strong><span aria-label="required">*</span></strong>
+                <label for="age">Age:
                     </label>
-                <input type="text" name="age" id="age" >
+                <input type="text" name="age" id="age" required >
             </p>
         </fieldset>
     </form>
