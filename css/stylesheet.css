@@ -9,14 +9,14 @@ img {
     width: 50%;   
 }
 
-.welcome img{
+.welcome img {
     float: left;
     width:100px;
     height:100px;
     background: #555;
 }
 
-.header h1{
+.header h1 {
     position:relative;
     top:18px;
     left:10px;
