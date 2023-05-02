@@ -1,5 +1,5 @@
-# ashlynyoung_HW7
-Web Forms
+# Web Forms
+---
 For this project, I put together a 2 page survey for Iowa undergradute students. The survey included a page to gather personal information on the student, including age and school year, as well as a page that asked questions about their lifestyle, including how much they sleep and study on average. 
 
 My web form follows best practices in many ways, one being the inclusive options provided for the gender selection. Instead of just keeping it simple and doing male, female, non-binary, and prefer not to answer, I added in more options to be more inclusive to people who might not identify with any of those groups. Not only does this help individuals taking my survey to feel more included but it can help with analysis of the data as I won't have a large population choosing "Prefer not to say".
